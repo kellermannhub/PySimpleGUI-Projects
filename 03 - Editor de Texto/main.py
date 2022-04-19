@@ -61,7 +61,7 @@ while True:
 
         full_path = os.path.join(path, filename)
 
-        with open(filename, "w", encoding="utf-8") as f:
+        with open(full_path, "w", encoding="utf-8") as f:
             f.write(content)
 
     # Breaking the loop
